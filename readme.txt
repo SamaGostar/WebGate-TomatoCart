@@ -16,7 +16,7 @@ and replace with :
 
 
 // start change for zarinpal payment modules
-  if ($form_action_url == 'https://www.zarinpal.com/users/pay_invoice/') {
+  if ($form_action_url == 'https://www.zarinpal.com/pg/StartPay/') {
   echo '</form>';
   } else {  
   echo '<div style="text-align:left;">' . osc_draw_image_submit_button('button_confirm_order.gif', $osC_Language->get('button_confirm_order'), 'id="btnConfirmOrder"') . '</form></div>';
